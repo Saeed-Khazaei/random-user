@@ -16,25 +16,16 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Assignment
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Develop a React application that fetches and displays data from [https://randomuser.me/api/.]
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The following 4 values should be displayed:
+- the user’s first and last name, image and country.
+- The information should be initially fetched on the first page load, and a button for fetching a new random user should be available.
+- Whenever a new user is fetched, the changed fields should be briefly highlighted in order to indicate changes on the screen. Note, that since the information is random, in most cases all fields (first name, last name, as well as country) will be changed and highlighted, but if some of them happen to be the same, they should not be highlighted.
+- Things to keep in mind: Both the styling/design, functionality as well as code quality are going to be evaluated and discussed in a follow-up interview The solution should be implemented in TypeScript Since one of the main goals of this assignment is evaluating knowledge of React, ideally no caching or state management libraries (such as React Query or Redux) should be used Automated tests are optional The source code may be delivered as a zip-file, or simply a GitHub, CodeSandbox (or similar) repository External tools: As a Developer you are free to access any web resources but are expected to be able to explain and reason about the solution. 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Evaluation
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The test is meant to evaluate programming and problem solving skills. Write the code in the manner you think is good practice and are comfortable with (coding standard, naming conventions, appropriate comments, data structures, etc).
